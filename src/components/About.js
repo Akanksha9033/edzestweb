@@ -28,7 +28,7 @@ const teamMembers = [
     role: "Software Engineer",
     department: "Software Team",
     image: JavidImg,
-    linkedin: "https://www.linkedin.com/in/javid-ahammed"
+    linkedin: "https://www.linkedin.com/in/javid-ahammed-43489a250/"
   },
   {
     name: "Pratibha Kumari",
