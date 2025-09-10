@@ -1,5 +1,3 @@
-
-
 /* global gtag */
 
 import React, { useState } from "react";
@@ -56,47 +54,23 @@ const Navbar = () => {
 
         {/* Desktop Navigation */}
         <nav className="d-none d-md-flex gap-4 text-gray-700 font-medium align-items-center">
-
-
-          {/* <Link
-            to="/training"
-            onClick={() => handleNavClick("/training")}
+          <a
+            href="https://exams.edzest.org/learn/PMP-training-23rd-Aug-batch"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-gray-800 text-decoration-none hover:text-[#4748ac]"
           >
             Training
-          </Link> */}
+          </a>
 
           <a
-  href="https://exams.edzest.org/learn/PMP-training-23rd-Aug-batch"
-  target="_blank"     // Optional: opens in a new tab
-  rel="noopener noreferrer"  // Recommended for security
- className="text-gray-800 text-decoration-none hover:text-[#4748ac]"
->
-  Training
-</a>
-
-
-
-
-           {/* <Link
-            to="/mock-exam"
-            onClick={() => handleNavClick("/mock-exam")}
+            href="https://exams.edzest.org/learn/PMP-mock-exams"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-gray-800 text-decoration-none hover:text-[#4748ac]"
           >
             Mock Exams
-          </Link> */}
-
-<a
-  href="https://exams.edzest.org/learn/PMP-mock-exams"
-  target="_blank"             // Optional: opens in new tab
-  rel="noopener noreferrer"   // Recommended for security
-  className="text-gray-800 text-decoration-none hover:text-[#4748ac]"
->
-  Mock Exams
-</a>
-
-
-
+          </a>
 
           <Link
             to="/events"
@@ -105,20 +79,6 @@ const Navbar = () => {
           >
             Events
           </Link>
-
-
-
-          //  <Link
-          //   to="/corporate-training"
-          //   onClick={() => handleNavClick("/corporate-training")}
-          //   className="text-gray-800 text-decoration-none hover:text-[#4748ac]"
-          // >
-          //   Corporate Training
-          // </Link>
-
-         
-
-         
 
           <Dropdown show={show} onToggle={(isOpen) => setShow(isOpen)}>
             <Dropdown.Toggle
@@ -156,28 +116,6 @@ const Navbar = () => {
                     >
                       Flashcards
                     </Link>
-  
-                    {/* <Link
-                      to="/career-development"
-                      onClick={() => {
-                        trackEvent("career_development_click", "Career Development");
-                        handleNavClick("/career-development");
-                      }}
-                      className="text-dark text-decoration-none py-2 px-3 rounded hover-bg-light"
-                    >
-                      Career Development
-                    </Link> */}
-
-                    {/* <Link
-                      to="/drag-and-drop"
-                      onClick={() => {
-                        trackEvent("practice_questions_click", "Practice Questions");
-                        handleNavClick("/drag-and-drop");
-                      }}
-                      className="text-dark text-decoration-none py-2 px-3 rounded hover-bg-light"
-                    >
-                      Practice Questions
-                    </Link> */}
 
                     <Link
                       to="/PdfDocs"
@@ -194,21 +132,6 @@ const Navbar = () => {
               </Container>
             </Dropdown.Menu>
           </Dropdown>
-{/*           
-<Link
-            to="/pdus"
-            onClick={() => handleNavClick("/pdus")}
-            className="text-gray-800 text-decoration-none hover:text-[#4748ac]"
-          >
-            PDUs
-          </Link> */}
-
-    
-  {/* <Link to="/blogs" 
-    onClick={() => handleNavClick("/blogs")}
-  className="nav-link">
-    Blog
-  </Link> */}
 
           <Link
             to="/about"
@@ -217,16 +140,6 @@ const Navbar = () => {
           >
             About us
           </Link>
-
-          // <Link
-          //   to="/contact"
-          //   onClick={() => handleNavClick("/contact")}
-          //   className="text-gray-800 text-decoration-none hover:text-[#4748ac]"
-          // >
-          //   Contact us
-          // </Link>
-
-         
 
           <a
             href="https://exams.edzest.org/learn/account/signin"
@@ -272,46 +185,23 @@ const Navbar = () => {
             ></button>
 
             <nav className="p-4">
-
-
-              {/* <Link
-                to="/training"
-                onClick={() => handleNavClick("/training")}
+              <a
+                href="https://exams.edzest.org/learn/PMP-training-23rd-Aug-batch"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="d-block text-gray-700 text-center py-1 text-decoration-none hover:bg-[#4748ac] hover:text-white"
               >
                 Training
-              </Link> */}
+              </a>
 
               <a
-  href="https://exams.edzest.org/learn/PMP-training-23rd-Aug-batch"
-  target="_blank"     // Optional: opens in a new tab
-  rel="noopener noreferrer"  // Recommended for security
-  className="d-block text-gray-700 text-center py-1 text-decoration-none hover:bg-[#4748ac] hover:text-white"
->
-  Training
-</a>
-
-<a
-  href="https://exams.edzest.org/learn/PMP-mock-exams"
-  target="_blank"             // Optional: opens in new tab
-  rel="noopener noreferrer"   // Recommended for security
-  className="d-block text-gray-700 text-center py-1 text-decoration-none hover:bg-[#4748ac] hover:text-white"
->
-  Mock Exams
-</a>
-
-
-               {/* <Link
-                to="/mock-exam"
-                onClick={() => handleNavClick("/mock-exam")}
+                href="https://exams.edzest.org/learn/PMP-mock-exams"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="d-block text-gray-700 text-center py-1 text-decoration-none hover:bg-[#4748ac] hover:text-white"
               >
                 Mock Exams
-              </Link> */}
-
-
-
-
+              </a>
 
               <Link
                 to="/events"
@@ -320,17 +210,6 @@ const Navbar = () => {
               >
                 Events
               </Link>
-          //       <Link
-          //   to="/corporate-training"
-          //   onClick={() => handleNavClick("/corporate-training")}
-          //   className="d-block text-gray-700 text-center py-1 text-decoration-none hover:bg-[#4748ac] hover:text-white"
-          // >Corporate Training
-          // </Link>
-
-            
-            
-
-             
 
               <div className="d-flex flex-column align-items-center">
                 <button
@@ -363,28 +242,6 @@ const Navbar = () => {
                       Flashcards
                     </Link>
 
-                    {/* <Link
-                      to="/career-development"
-                      onClick={() => {
-                        trackEvent("career_development_click", "Career Development");
-                        handleNavClick("/career-development");
-                      }}
-                      className="text-gray-700 text-center py-1 text-decoration-none hover:bg-[#4748ac] hover:text-white"
-                    >
-                      Career Development
-                    </Link> */}
-
-                    {/* <Link
-                      to="/drag-and-drop"
-                      onClick={() => {
-                        trackEvent("practice_questions_click", "Practice Questions");
-                        handleNavClick("/drag-and-drop");
-                      }}
-                      className="text-gray-700 text-center py-1 text-decoration-none hover:bg-[#4748ac] hover:text-white"
-                    >
-                      Practice Questions
-                    </Link> */}
-
                     <Link
                       to="/PdfDocs"
                       onClick={() => {
@@ -397,29 +254,9 @@ const Navbar = () => {
                     </Link>
                   </div>
                 )}
- 
-<div>
-               
-          
-          </div>
 
- 
-{/* <Link
-            to="/pdus"
-            onClick={() => handleNavClick("/pdus")}
-            className="text-gray-800 text-decoration-none hover:text-[#4748ac]"
-          >
-            PDUs
-          </Link> */}
-
-            {/* <Link to="/blogs" 
-    onClick={() => handleNavClick("/blogs")}
-  className="nav-link">
-    Blogs
-  </Link> */}
+                <div></div>
               </div>
-
- 
 
               <Link
                 to="/about"
@@ -428,14 +265,6 @@ const Navbar = () => {
               >
                 About us
               </Link>
-
-              // <Link
-              //   to="/contact"
-              //   onClick={() => handleNavClick("/contact")}
-              //   className="d-block text-gray-700 text-center py-1 text-decoration-none hover:bg-[#4748ac] hover:text-white"
-              // >
-              //   Contact us
-              // </Link>
 
               <a
                 href="https://exams.edzest.org/learn/account/signin"
@@ -447,8 +276,6 @@ const Navbar = () => {
                 Log in
               </a>
             </nav>
-
-            
           </div>
         )}
       </div>
@@ -540,7 +367,6 @@ const Navbar = () => {
     }
   }
 `}</style>
-
     </header>
   );
 };
