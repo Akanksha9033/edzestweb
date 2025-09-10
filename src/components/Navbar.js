@@ -108,13 +108,13 @@ const Navbar = () => {
 
 
 
-           <Link
-            to="/corporate-training"
-            onClick={() => handleNavClick("/corporate-training")}
-            className="text-gray-800 text-decoration-none hover:text-[#4748ac]"
-          >
-            Corporate Training
-          </Link>
+          //  <Link
+          //   to="/corporate-training"
+          //   onClick={() => handleNavClick("/corporate-training")}
+          //   className="text-gray-800 text-decoration-none hover:text-[#4748ac]"
+          // >
+          //   Corporate Training
+          // </Link>
 
          
 
@@ -218,13 +218,13 @@ const Navbar = () => {
             About us
           </Link>
 
-          <Link
-            to="/contact"
-            onClick={() => handleNavClick("/contact")}
-            className="text-gray-800 text-decoration-none hover:text-[#4748ac]"
-          >
-            Contact us
-          </Link>
+          // <Link
+          //   to="/contact"
+          //   onClick={() => handleNavClick("/contact")}
+          //   className="text-gray-800 text-decoration-none hover:text-[#4748ac]"
+          // >
+          //   Contact us
+          // </Link>
 
          
 
@@ -320,12 +320,12 @@ const Navbar = () => {
               >
                 Events
               </Link>
-                <Link
-            to="/corporate-training"
-            onClick={() => handleNavClick("/corporate-training")}
-            className="d-block text-gray-700 text-center py-1 text-decoration-none hover:bg-[#4748ac] hover:text-white"
-          >Corporate Training
-          </Link>
+          //       <Link
+          //   to="/corporate-training"
+          //   onClick={() => handleNavClick("/corporate-training")}
+          //   className="d-block text-gray-700 text-center py-1 text-decoration-none hover:bg-[#4748ac] hover:text-white"
+          // >Corporate Training
+          // </Link>
 
             
             
@@ -429,13 +429,13 @@ const Navbar = () => {
                 About us
               </Link>
 
-              <Link
-                to="/contact"
-                onClick={() => handleNavClick("/contact")}
-                className="d-block text-gray-700 text-center py-1 text-decoration-none hover:bg-[#4748ac] hover:text-white"
-              >
-                Contact us
-              </Link>
+              // <Link
+              //   to="/contact"
+              //   onClick={() => handleNavClick("/contact")}
+              //   className="d-block text-gray-700 text-center py-1 text-decoration-none hover:bg-[#4748ac] hover:text-white"
+              // >
+              //   Contact us
+              // </Link>
 
               <a
                 href="https://exams.edzest.org/learn/account/signin"
