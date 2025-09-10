@@ -7,7 +7,7 @@ const AdBanner = () => {
   const [ads, setAds] = useState([
     {
       id: 1,
-      text: "📢 New PMP® Exam Batch Starts on 11th October",
+      text: "📢 New PMP® Exam Batch Starts on 5th October",
       link: "https://exams.edzest.org/learn/PMP-5th-Oct",
     },
   ]);
