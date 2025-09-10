@@ -8,7 +8,7 @@ const AdBanner = () => {
     {
       id: 1,
       text: "📢 New PMP® Exam Batch Starts on 11th October",
-      link: "https://exams.edzest.org/learn/PMP-11th-Oct",
+      link: "https://exams.edzest.org/learn/PMP-5th-Oct",
     },
   ]);
 
