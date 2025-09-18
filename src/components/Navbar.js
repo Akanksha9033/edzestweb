@@ -55,7 +55,7 @@ const Navbar = () => {
         {/* Desktop Navigation */}
         <nav className="d-none d-md-flex gap-4 text-gray-700 font-medium align-items-center">
           <a
-            href="https://exams.edzest.org/learn/PMP-training-23rd-Aug-batch"
+            href="https://exams.edzest.org/learn/PMP-5th-Oct"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-800 text-decoration-none hover:text-[#4748ac]"
