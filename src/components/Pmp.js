@@ -75,7 +75,7 @@ const Hero = () => {
           <li>Weekly group revision sessions</li>
           <li>1:1 guidance till your certification</li>
         </ul>
-        <a href="https://exams.edzest.org/learn/PMP-training-Apr-batch" target="_blank" rel="noopener noreferrer" className="mt-auto text-center">
+        <a href="https://exams.edzest.org/learn/PMP-11th-Oct" target="_blank" rel="noopener noreferrer" className="mt-auto text-center">
           <button className="bg-[#4748ac] hover:bg-[#3737ac] text-white font-semibold py-2 px-6 rounded mt-6">
             Learn More
           </button>
@@ -222,7 +222,7 @@ const Hero = () => {
           </div>
           <div className="col-span-1 md:col-span-2 lg:col-span-3 flex justify-center my-8">
           <a
-              href="https://exams.edzest.org/learn/PMP-training-Apr-25-batch"
+              href="https://exams.edzest.org/learn/PMP-11th-Oct"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-[#4748ac] hover:bg-[#3737ac] text-white font-semibold py-3 px-6 rounded-lg text-decoration-none transition duration-300"
