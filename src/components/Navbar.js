@@ -186,7 +186,7 @@ const Navbar = () => {
 
             <nav className="p-4">
               <a
-                href="https://exams.edzest.org/learn/PMP-training-23rd-Aug-batch"
+                href="https://exams.edzest.org/learn/PMP-5th-Oct"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="d-block text-gray-700 text-center py-1 text-decoration-none hover:bg-[#4748ac] hover:text-white"
