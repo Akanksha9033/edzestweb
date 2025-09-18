@@ -31,7 +31,7 @@ const Hero = () => {
             </p>
             <div>
             <a
-  href="https://exams.edzest.org/learn/PMP-training-Apr-25-batch
+  href="https://exams.edzest.org/learn/PMP-11th-Oct
 "
   target="_blank"
   rel="noopener noreferrer"
